@@ -43,5 +43,9 @@
   "Xenova/tiny-random-Phi3ForCausalLM": {
     "bf16": false,
     "fp16": true
+  },
+  "TitanML/tiny-mixtral": {
+    "bf16": false,
+    "fp16": true
   }
 }
