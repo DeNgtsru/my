@@ -1,25 +1,8 @@
 {
-  "tiiuae/falcon-mamba-7b": {
-    "flash_attention": false,
-    "special_tokens": {
-      "pad_token": "<|endoftext|>"
-    }
-  },
   "bigscience/bloomz-560m": {
     "flash_attention": false
   },
-  "Xenova/tiny-random-Phi3ForCausalLM": {
-    "bf16": false,
-    "fp16": true
-  },
-  "unsloth/gemma-2-9b-it": {
-    "lr_scheduler": "cosine",
-    "optimizer": "adamw_torch"
-  },  
   "NousResearch/CodeLlama-13b-hf": {
-    "flash_attention": false
-  },
-  "NousResearch/Yarn-Llama-2-7b-64k": {
     "flash_attention": false
   },
   "NousResearch/Yarn-Llama-2-13b-64k": {
@@ -29,10 +12,7 @@
     "optimizer": "adamw_hf",
     "flash_attention": false
   },
-  "tiiuae/falcon-7b": {
-    "flash_attention": false
-  },
-  "tiiuae/falcon-rw-1b": {
+  "NousResearch/Yarn-Llama-2-7b-64k": {
     "flash_attention": false
   },
   "princeton-nlp/gemma-2-9b-it-SimPO": {
@@ -43,5 +23,25 @@
     "gradient_accumulation_steps": 4,
     "eval_batch_size": 2,
     "flash_attention": false
+  },
+  "tiiuae/falcon-7b": {
+    "flash_attention": false
+  },
+  "tiiuae/falcon-mamba-7b": {
+    "flash_attention": false,
+    "special_tokens": {
+      "pad_token": "<|endoftext|>"
+    }
+  },
+  "tiiuae/falcon-rw-1b": {
+    "flash_attention": false
+  },
+  "unsloth/gemma-2-9b-it": {
+    "lr_scheduler": "cosine",
+    "optimizer": "adamw_torch"
+  },
+  "Xenova/tiny-random-Phi3ForCausalLM": {
+    "bf16": false,
+    "fp16": true
   }
 }
