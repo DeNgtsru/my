@@ -31,6 +31,7 @@
     "flash_attention": false
   },
   "NousResearch/Yarn-Llama-2-7b-128k": {
+    "optimizer": "adamw_hf",
     "flash_attention": false
   },
   "tiiuae/falcon-7b": {
