@@ -1,4 +1,7 @@
 {
+  "bigscience/bloom-560m": {
+    "flash_attention": false
+  },
   "bigscience/bloomz-560m": {
     "flash_attention": false
   },
