@@ -11,6 +11,9 @@
   "NousResearch/CodeLlama-13b-hf": {
     "flash_attention": false
   },
+  "NousResearch/CodeLlama-13b-hf-flash": {
+    "flash_attention": false
+  },
   "NousResearch/Yarn-Llama-2-13b-64k": {
     "flash_attention": false
   },
