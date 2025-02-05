@@ -5,6 +5,9 @@
   "fxmarty/really-tiny-falcon-testing": {
     "flash_attention": false
   },
+  "NousResearch/CodeLlama-7b-hf": {
+    "flash_attention": false
+  },
   "NousResearch/CodeLlama-13b-hf": {
     "flash_attention": false
   },
