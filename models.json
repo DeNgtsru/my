@@ -2,6 +2,9 @@
   "bigscience/bloomz-560m": {
     "flash_attention": false
   },
+  "fxmarty/really-tiny-falcon-testing": {
+    "flash_attention": false
+  },
   "NousResearch/CodeLlama-13b-hf": {
     "flash_attention": false
   },
