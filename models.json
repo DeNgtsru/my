@@ -3,7 +3,7 @@
     "flash_attention": false
   },
   "hf-tiny-model-private/tiny-random-OPTForCausalLM": {
-    "gradient_checkpointing": false
+    "sequence_len": 100
   },
   "bigscience/bloomz-560m": {
     "flash_attention": false
